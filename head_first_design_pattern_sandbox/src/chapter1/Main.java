@@ -6,7 +6,7 @@ public class Main {
 		duck.display();
 		System.out.println(duck.swim());
 		System.out.println(duck.quack());
-		
-	}
+		System.out.println(duck.fly());
+		}
 
 }
