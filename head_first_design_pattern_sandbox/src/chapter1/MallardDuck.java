@@ -8,6 +8,9 @@ public class MallardDuck extends Duck {
 		// TODO Auto-generated method stub
 		System.out.println("マガモを表示する");
 	}
-	
+	public MallardDuck() {
+		quackBehavior = new Quack();
+		flyBehavior = new FlyWithWings();
+	}
 
 }

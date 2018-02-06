@@ -5,8 +5,14 @@ public class Main {
 		Duck duck = new MallardDuck();
 		duck.display();
 		System.out.println(duck.swim());
-		System.out.println(duck.quack());
-		System.out.println(duck.fly());
-		}
+		duck.performFly();
+		duck.performQuack();
+	
+		Duck model = new ModelDuck();
+		model.performFly();
+		model.setFlyBehavior(new FlyRocketPowered());
+		model.performFly();
+	}
+	
 
 }
